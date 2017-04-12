@@ -1,0 +1,358 @@
+/* SAYFA HEADER
+=============================================  */
+
+.p-header{
+	padding:20px;
+	background-color:#DDD;}
+	
+.p-header img{
+	height:60px;}
+
+
+.social-header{
+	/*float:right;*/
+	} 
+
+.social-header li{
+	display:inline-block;
+	list-style:none;
+	font-size:35px;
+	line-height:60px;
+	color:#666666;}
+	
+.social-header ul{
+	margin:0;padding:0;}
+
+/* MENU
+=============================================  */
+
+.menu-nav{
+	margin:0;
+	padding:0;	
+	border-top:10px solid #006699;
+	border-bottom:2px solid #FFFFFF;
+	font-family:'Ubuntu', sans-serif;
+}
+
+.menu-nav a{
+	color:#E7E7E7;
+	display:block;
+	text-decoration:none;
+	padding:25px 20px 25px 20px;
+	transition:all .4s;}
+
+.menu-nav ul{
+	margin:0;
+	padding:0;	
+	background-color:#333;	
+	-webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.35);
+	-moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.35);
+	box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.35);
+}
+
+.menu-nav li{
+	position:relative;
+	display:inline-block;	
+}
+
+.menu-nav li ul li{
+	width:220px;
+}
+
+.menu-nav li ul li a{
+	padding-top:15px;
+	padding-bottom:15px;
+	border-bottom:1px solid #000;
+	border-top:1px solid #4F4F4F;
+}
+
+.menu-nav li ul{
+	z-index:1;
+	position:absolute;
+	visibility:hidden;
+	pointer-events:none;
+	left:0;
+	margin-top:10px;
+	opacity:0;
+	transition:all 0.2s;
+}
+
+
+.menu-nav li ul li ul{
+	z-index:1;
+	position:absolute;
+	left:220px;
+	top:0;
+	margin-top:10px;
+	opacity:0;
+	border-left:1px solid #CCC;
+	transition:all 0.2s;
+}
+
+.menu-nav ul li a:hover{
+	color:#00CCFF;
+}
+	
+.menu-nav li:hover>ul{
+	pointer-events:inherit;
+	visibility:inherit;
+	margin-top:0;
+	opacity:1;}
+	
+.menu-nav li ul li:hover li ul li ul{	
+	visibility:inherit;
+	pointer-events:inherit;
+	opacity:1;}
+	
+	
+/* SLIDER
+======================================*/
+
+
+.carousel img{
+	width:100%;
+	-webkit-filter: brightness(100%);
+     filter: brightness(100%);
+	 transition:all .5s;}
+
+	
+.slide{
+	background-color:#000;
+	transition:all .5s;}
+
+
+.carousel-caption{
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.56) 36%, rgba(0,0,0,0.56) 64%, rgba(0,0,0,0.02) 99%, rgba(0,0,0,0) 100%); 
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.56) 36%,rgba(0,0,0,0.56) 64%,rgba(0,0,0,0.02) 99%,rgba(0,0,0,0) 100%); 
+background: linear-gradient(to bottom,  rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.56) 36%,rgba(0,0,0,0.56) 64%,rgba(0,0,0,0.02) 99%,rgba(0,0,0,0) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03000000', endColorstr='#00000000',GradientType=0 );
+padding:20px;
+font-size:14px;
+font-family:'Ubuntu', sans-serif;
+}
+
+.slide a{
+	color:#FFFFFF;
+	text-decoration:none;
+	transition:all .5s;}
+	
+.slide a:hover{
+	color:#FFC184;}
+
+.slider-button-container{
+	height:0;
+	opacity:0;
+	margin-bottom:40px;
+	transition:all .3s;}
+	
+.slide:hover .slider-button-container{
+	height:150px;
+	opacity:1;}
+	
+.carousel:hover img {
+	 -webkit-filter: brightness(50%);
+      filter: brightness(50%);}
+
+
+
+/* KAYAN BUTON 
+================================*/
+
+.button-up{
+	width:200px;
+	line-height:37px;
+	text-align:center;	
+	border:3px solid #EF9E63;
+	color:#FFFFFF;
+	background-color:#EF9E63;
+	font-size:13px;
+	transition:all .5s;}
+.button-down{
+	width:200px;
+	line-height:37px;
+	text-align:center;
+	border:3px solid #AABA78;
+	color:#FFFFFF;
+	background-color:#AABA78;
+	font-size:13px;
+	transition:all .5s;}
+	
+.crbut{	
+	transition:0.65s all cubic-bezier(0.5, 2, 0.5, 0.75);
+	cubic-bezier(0.5, 2, 0.5, 0.75);
+    -moz-transition: 0.65s all cubic-bezier(0.5, 2, 0.5, 0.75);
+    -ms-transition: 0.65s all cubic-bezier(0.5, 2, 0.5, 0.75);
+    -o-transition: 0.65s all cubic-bezier(0.5, 2, 0.5, 0.75);}
+	
+.crbut a{	
+	text-decoration:none;}
+
+.con-read-but{
+	margin-top:25px;
+	width:200px;
+	height:43px;
+	overflow:hidden;	
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#EF9E63;}
+	
+.con-read-but:hover .crbut{
+	margin-top:-43px;}
+	
+
+/*buttons*/
+
+.reading-continue{
+	width:200px;
+	line-height:40px;
+	text-align:center;
+	margin-top:20px;
+	border:3px solid #EF9E63;
+	color:#FFFFFF;
+	background-color:#EF9E63;
+	font-size:13px;
+	transition:all .5s;}
+	
+.reading-continue:hover{
+	background-color:#AABA78;
+	border-color:#AABA78;}
+
+/*buttons end*/
+
+/* Post category basla */
+
+.post-category{
+	text-align:center;}
+
+.post-category ul{
+	margin:0;
+	padding:0;}
+	
+.post-category ul li{
+	margin-top:15px;
+	display:inline-block;
+	list-style:none;}
+
+.post-category ul li a{
+	display:inline-block;
+	color:#f8a795;}
+	
+
+	
+.post-category ul li~li:before {
+    position: absolute;
+    font-size: 12px;
+    content: ',';
+    left: -5px;
+    bottom: 1px;
+    color: #f8a795;}
+	
+	
+/* Post category son */
+
+/* Alt Çizgi başla */	
+
+.post-bottom-line{
+	width:50px;
+	margin:15px auto 15px auto;}
+	
+.post-bottomline-white{	
+	border-bottom:2px solid #FFF;}
+	
+.post-bottomline-black{	
+	border-bottom:2px solid #333;}
+	
+
+	
+/* Alt Çizgi Son  */		
+
+/*thumnail img zoom */
+
+.thumb-img img{
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+	-webkit-filter: sepia(0%);
+  	filter: sepia(0%);
+    transition: all 1s ease;
+      max-width: 100%;}
+	  
+.thumb-img img:hover{
+	-webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+	 -webkit-filter: sepia(50%);
+  	filter: sepia(50%);}
+
+.thumb-img{
+	overflow: hidden;}
+
+/*thumnail img zoom son */
+
+/*post başla */
+
+
+.caption h2{
+	text-align:center;
+ 	font-family:'Ubuntu', sans-serif;
+ 	font-weight:bold;
+	margin-top:10px;}
+	
+.caption h3{
+	text-align:center;
+ 	font-family:'Ubuntu', sans-serif;
+ 	font-weight:bold;
+	margin-top:10px;}
+	
+.caption h2 a, .caption h3 a{
+	text-decoration:none;
+	color:#333;
+	transition:all 0.5s;}
+	
+.caption h2 a:hover, .caption h3 a:hover{
+	color:#699;}
+ 
+/*post son */
+
+
+/* LIST GROUP 
+=========================================*/
+
+.list-group-item{
+	font-size:14px;
+	margin-bottom:10px;}
+
+.list-group-item img{
+	margin:15px 0;}
+	
+.sidebar-header{
+	padding:20px;
+	background-color:#066;
+	color:#FFFFFF;}
+	
+
+.emre{
+	visibility:visible;
+	animation-duration:2s;
+	animation-delay:0.1s;
+	animation-name:fadeIn;}
+	
+	
+/* Yatay Post
+==============================================*/
+
+.box-img{
+	padding:0;}
+	
+.box{
+	font-size:12px;
+	line-height:20px;
+	margin-bottom:20px;}
+	
+	
+	
+.icerik{
+	margin-bottom:20px;}

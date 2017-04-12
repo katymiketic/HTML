@@ -1,0 +1,234 @@
+
+a:hover{
+	color:#eb5d68 !important;
+}
+
+blockquote { 
+  border-left: 5px solid #eb5d68;
+}
+
+.text-green{
+	color:#eb5d68 !important;
+}
+
+.highlight{
+	font-weight:600;
+	color:#eb5d68;
+}
+
+.header-bg-green{
+	background-color:#eb5d68;
+}
+
+.btn1-default{
+	background-color:#eb5d68;
+}
+
+.btn1-default-no-bg{	
+	border:2px solid #eb5d68;	
+}
+
+.btn1-default-no-bg:hover{
+	background-color:#eb5d68;
+}
+
+.btn-nobg-bold{	
+	border:2px solid #eb5d68;
+	color:#eb5d68;
+}
+
+.btn-nobg-bold:hover{
+	background-color:#eb5d68;
+}
+
+.post-date-author-comment a{
+	color:#eb5d68 !important;
+}
+
+.pagination-buttons a:hover{
+	background-color:#eb5d68;
+	border-color:#eb5d68;
+}
+
+.pagination-active a{
+	border:1px solid #eb5d68;
+	background-color:#eb5d68 !important;
+}
+
+.hometab-vert .nav-tabs > li > a { 
+	background-color:#eb5d68;
+}
+
+.hometab-horz .nav-tabs > li > a { 
+	background-color:#eb5d68;
+}
+
+.sidebar-categories li:hover{	
+	border-left:3px solid #eb5d68;
+}
+
+.sidebar-categories li a:hover{
+	color:#eb5d68;
+}
+
+.footer-tags li a:hover{
+	background-color:#eb5d68;
+}
+
+.social-icons ul li a{
+	color:#eb5d68;
+	border:1px solid #eb5d68;
+}
+
+a.continue-button{
+	background-color:#eb5d68;
+}
+
+input[type="submit"]{
+	background-color:#eb5d68;
+}
+
+.subscribe input[type="submit"]{
+	background-color:#eb5d68;
+}
+
+.not-found{
+	color:#eb5d68;
+}
+
+.btn-nfound{
+	background-color:#eb5d68;
+}
+
+.btn-nfound-home{
+	background-color:#eb5d68;
+}
+
+.project-button{
+	background-color:#eb5d68;
+}
+
+.page-header-one a:hover{
+	color:#eb5d68;
+}
+
+.op-active-menu-item{
+	border-bottom:4px solid #eb5d68;
+}
+
+.bg-green{
+	background-color:#eb5d68 !important;
+}
+
+.au-icon-wrapper-2{
+	background-color:#eb5d68;	
+}
+
+.au-service-item:hover .au-icon-wrapper{
+	background-color:#eb5d68;	
+}
+
+.au-service-item-2:hover .au-icon-wrapper-2{
+	box-shadow:0px 0px 0px 5px #eb5d68 inset;
+}
+
+.au-service-item-2:hover .au-icon-wrapper-2 i{
+	color:#eb5d68;
+}
+
+.header-title-green:after {    
+    background: #eb5d68;
+}
+
+.header-title-green-center:after {    
+    background: #eb5d68;
+}
+
+.header-title-green-right:after{
+	background: #eb5d68;
+}
+
+.top-title{
+	color:#eb5d68 !important;	
+	font-weight:bold;
+}
+
+.accordion-3 .panel-default > .panel-heading {
+	background-color:#eb5d68;
+}
+
+.accordion-1 .panel-default > .panel-heading:hover .panel-title>i {
+	color:#eb5d68;
+}
+
+.panel-body i.acc-icon{
+	color:#eb5d68;
+	display:inline-block;
+	font-size:80px;
+	margin:0 20px 20px 0;
+	float:left;
+}
+
+.faq-active{
+	border-bottom:3px solid #eb5d68;
+}
+
+.homepg-icon, .homepg-icon-2, .homepg-icon-3{
+	color:#eb5d68;	
+}
+
+.homepg-icon-3{	
+	background-color:#eb5d68;
+}
+
+.home-services-icon{
+	color:#eb5d68;
+}
+
+.hs3-link{
+	color:#eb5d68;
+}
+
+.hmt2-item img:hover{
+	border-color: #eb5d68;	
+}
+
+.hmt3-item img:hover{
+	border-color: #eb5d68;	
+}
+
+.hmt2-item:hover img{
+	border-color: #eb5d68;	
+}
+
+.hmt3-item:hover img{
+	border-color: #eb5d68;	
+}
+
+.hp3-au-list li:before{	
+	color:#eb5d68;	
+}
+
+.list-green li:before{		
+	color:#eb5d68;;	
+}
+
+.counter-wrapper-green{
+	border:4px solid #eb5d68;
+}
+
+.counter-wrapper-green-2{
+	border:4px solid #eb5d68;
+}
+
+.counter-wrapper-bg-green{
+	background-color:#eb5d68;
+} 
+
+.price-green{
+	background: #eb5d68;
+}
+
+.plans-button-green{
+	background-color:#eb5d68;
+}
